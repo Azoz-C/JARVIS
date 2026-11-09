@@ -1,0 +1,32 @@
+# Copy to config.local.toml. Secrets are stored separately using `secret set`.
+owner_id = 0
+telegram_api_id = 0
+timezone = "Europe/Istanbul"
+quiet_start = 23
+quiet_end = 9
+max_workers = 1
+max_call_seconds = 900
+blocker_delay_seconds = 60
+hourly_calls = 2
+daily_calls = 6
+call_cooldown_seconds = 60
+# Enable only after a controlled live transport validation.
+calls_enabled = false
+automatic_calls = false
+# Confirm using an API project with no billing attached before enabling.
+free_cloud_confirmed = false
+gemini_model = "gemini-3.8-live"
+gemini_voice = "Charon"
+browser_channel = "msedge"
+voice_style = "Speak in a refined Southern British English accent (Received Pronunciation). Use a cultured adult male voice, smooth lower register, crisp diction, measured pace, quiet confidence and subtle dry wit. Keep this accent throughout the call."
+codex_bin = "codex"
+# frontend: open a composer draft; owner presses Send. No background task run.
+# visible: app-server worker with its Codex chat opened; background: no auto-open.
+codex_task_mode = "visible"
+# Existing chats use the native Windows composer and Send control.
+existing_chat_transport = "interface"
+whisper_bin = "whisper-cli"
+whisper_model = ""
+piper_bin = "piper"
+piper_model = ""
+

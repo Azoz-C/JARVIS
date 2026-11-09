@@ -1,0 +1,10 @@
+# Windows x64 / CPython 3.12. Generated from PyPI metadata.
+# No packages were installed or executed during resolution.
+# comtypes-1.4.17-py3-none-any.whl
+comtypes==1.4.17 --hash=sha256:4e0a221dde2c589b82977bed802efd71cd5eb67a380347b732e02735e597f586
+# pywin32-312-cp312-cp312-win_amd64.whl
+pywin32==312 --hash=sha256:b457f6d628a47e8a7346ce22acb7e1a46a4a78b52e1d17e1af56871bd19a93bc
+# pywinauto-0.6.9-py2.py3-none-any.whl
+pywinauto==0.6.9 --hash=sha256:5924b3072864a1d730c5546bbeb17cf4063ba518b618dbc5e43c18276c7c9356
+# six-1.17.0-py2.py3-none-any.whl
+six==1.17.0 --hash=sha256:4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274

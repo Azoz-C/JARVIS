@@ -1,0 +1,10 @@
+# Direct integration candidates, verified against upstream metadata 2026-11-08.
+# Full transitive hash lock is produced by scripts/lock_dependencies.py.
+Telethon==1.45.0
+ntgcalls==3.0.6
+py-tgcalls==3.0.0
+websockets==17.4
+pystray==0.19.5
+Pillow==13.0.0
+piper-tts==1.8.0
+

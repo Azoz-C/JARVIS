@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+*.session*
+*.sqlite*
+*.db*
+*.log
+dist/
+build/
+*.egg-info/
+.jarvis-state/
+config.local.toml
+.runtime/
+
